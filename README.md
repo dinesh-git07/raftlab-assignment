@@ -8,19 +8,18 @@ A modular .NET Core solution that integrates with the public ReqRes API to fetch
 
 RaftLab-Assignment.sln
 │
-├── RaftLab_Assignment/ # ASP.NET Core Web API (Optional UI/API layer)
-│ └── Controllers/ # API endpoints (UsersController)
+├── RaftLab_Assignment/                     # ASP.NET Core Web API (Optional UI/API layer)
+│   └── Controllers/                        # API endpoints (UsersController)
 │
-├── RaftLab_Assignment.Core/ # Class Library with business logic
-│ ├── Models/ # POCOs like User, ReqResAPISettings
-│ ├── Interfaces/ # IReqResInterface
-│ ├── Services/ # ReqResClient - API integration logic
-│ └── Utils/ # Helper methods like ReadFromJsonDataFieldAsync
+├── RaftLab_Assignment.Core/                # Class Library with business logic
+│   ├── Models/                             # POCOs like User, ReqResAPISettings
+│   ├── Interfaces/                         # IReqResInterface
+│   ├── Services/                           # ReqResClient - API integration logic
+│   └── Utils/                              # Helper methods like ReadFromJsonDataFieldAsync
 │
-├── RaftLab_Assignment.ConsoleApp/ # Console App using Core library
+├── RaftLab_Assignment.ConsoleApp/          # Console App using Core library
 │
-└── RaftLab_Assignment.Tests/ # xUnit Test Project for Core logic and Controllers
-
+└── RaftLab_Assignment.Tests/               # xUnit Test Project for Core logic and Controllers
 ---
 
 ## 🔧 Configuration
