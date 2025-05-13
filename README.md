@@ -27,7 +27,7 @@ RaftLab-Assignment.sln
 
 Update your `appsettings.json` with the following section to configure the ReqRes API client:
 
-````json
+```json
 "ReqResApi": {
   "BaseUrl": "https://reqres.in/",
   "ApiKey": "<API_KEY>",
@@ -35,6 +35,14 @@ Update your `appsettings.json` with the following section to configure the ReqRe
   "MaxRetryAttempts": 3
 }
 ```
+
+🛠️ Build Instructions
+Clone the Repository
+
+```bat
+git clone https://github.com/yourname/RaftLab-Assignment.git
+cd RaftLab-Assignment
+````
 
 Restore and Build Solution
 
