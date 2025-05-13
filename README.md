@@ -34,6 +34,7 @@ Update your `appsettings.json` with the following section to configure the ReqRe
   "TimeoutSeconds": 30,
   "MaxRetryAttempts": 3
 }
+```
 
 🛠️ Build Instructions
 Clone the Repository
