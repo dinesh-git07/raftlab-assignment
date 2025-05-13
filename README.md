@@ -21,27 +21,28 @@ RaftLab-Assignment.sln
 │
 └── RaftLab_Assignment.Tests/ # xUnit Test Project for Core logic and Controllers
 
-
 ---
 
 ## 🔧 Configuration
 
 Update your `appsettings.json` with the following section to configure the ReqRes API client:
 
-```json
+````json
 "ReqResApi": {
   "BaseUrl": "https://reqres.in/",
   "ApiKey": "<API_KEY>",
   "TimeoutSeconds": 30,
   "MaxRetryAttempts": 3
-}```
+}
 
 🛠️ Build Instructions
 Clone the Repository
+
 ```bat
 git clone https://github.com/yourname/RaftLab-Assignment.git
-cd RaftLab-Assignment 
-```
+cd RaftLab-Assignment
+````
+
 Restore and Build Solution
 
 ```bat
@@ -59,6 +60,7 @@ dotnet run
 This fetches and prints users from https://reqres.in.
 
 Run the API (optional)
+
 ```bat
 cd RaftLab_Assignment
 dotnet run
