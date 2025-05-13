@@ -1,0 +1,6 @@
+@RaftLab_Assignment_HostAddress = http://localhost:5190
+
+GET {{RaftLab_Assignment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
