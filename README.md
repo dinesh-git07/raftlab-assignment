@@ -36,14 +36,6 @@ Update your `appsettings.json` with the following section to configure the ReqRe
 }
 ```
 
-🛠️ Build Instructions
-Clone the Repository
-
-```bat
-git clone https://github.com/yourname/RaftLab-Assignment.git
-cd RaftLab-Assignment
-````
-
 Restore and Build Solution
 
 ```bat
