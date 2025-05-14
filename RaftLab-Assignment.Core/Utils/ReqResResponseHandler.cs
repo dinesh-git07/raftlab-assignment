@@ -34,7 +34,7 @@ namespace RaftLab_Assignment.Utils
             }
             catch (JsonException)
             {
-                throw; // Just rethrow JSON exceptions as they're already the right type
+                throw; 
             }
             catch (Exception ex)
             {

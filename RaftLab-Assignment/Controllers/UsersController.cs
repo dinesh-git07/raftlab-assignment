@@ -23,8 +23,7 @@ namespace RaftLab_Assignment.Controllers
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        // GET: api/ReqRes/users/{id}
-        [HttpGet("users/{id:int}")]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> GetUserById(int id)
         {
             try
@@ -46,8 +45,7 @@ namespace RaftLab_Assignment.Controllers
             }
         }
 
-        // GET: api/ReqRes/users?page=1
-        [HttpGet("users")]
+        [HttpGet("")]
         public async Task<IActionResult> GetAllUsers([FromQuery] int page = 1)
         {
             try
